@@ -1,0 +1,25 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+$font-display: 'Space Mono', monospace;
+$font-body: 'Montserrat', sans-serif;
+
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html { font-size: 62.5%; }
+body {
+  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: $font-body;
+  color: #555;
+  -webkit-font-smoothing:antialiased;
+  border-top: 1rem solid $primary-color;
+}
+main.main {
+  padding: 0 .75rem;
+}
