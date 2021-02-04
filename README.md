@@ -18,4 +18,29 @@ A non-functional design for a Reddit Crawler created for an interview process de
 > * If you’re unsure about something or need more specs, just improvise. You have the freedom.
 > * Do not spend more than half a day on this task.
 
-  This project uses [Bulma](https://bulma.io/), the fonts [Oswald](https://fonts.google.com/specimen/Oswald) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento), [FontAwesome](https://fontawesome.com/), and [jQuery](https://jquery.com/).
+This project uses [Bulma](https://bulma.io/), the fonts [Oswald](https://fonts.google.com/specimen/Oswald) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento), [FontAwesome](https://fontawesome.com/), and [jQuery](https://jquery.com/).
+
+---
+
+I spent about 4 hours on this project.
+
+I made a couple assumptions about what I would have discovered during a research phase:
+1. Users of this app wanted a simpler, cleaner exerience than Reddit offers (or else they'd just use Reddit).
+2. Users aren't interested in the voting/karma features of Reddit, just in seeing what Reddit has determined to be the most relevant content.
+3. Despite this, users are aware of Reddit (and likely somewhat internet savvy) and might be interested in the conversation there for a given piece of content.
+4. This site would have it's own authentication system, but that would be standard enough that it didn't merit inclusion within the scope of this test.
+
+For the UI, in absence of a style guide or pattern library, I mostly just used the default styles offered by the CSS framework Bulma, and added some fonts from Google that I thought looked nice and were highly legible.
+
+At this stage, my next steps would be:
+* Write, schedule, and conduct user tests for several scenarios:
+  * Searching for content
+  * Filtering existing content
+  * Sorting existing content
+  * Adding another subreddit
+  * Removing a subreddit
+  * Viewing a piece of content
+  * Viewing the Reddit post that a piece of content originated from
+* Bring styling in line with branding, or begin establishing a style guid and branding if none exists.
+* Add a couple more interactive features for testing fidelity (specifically actually being able to add and remove subreddits, not just turn them on and off, as well as making the sorting buttons) actually switch.
+* Confer with the project lead and developers to consider what the next non-design steps would be and how my piece connects with theirs.
