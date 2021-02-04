@@ -42,5 +42,6 @@ At this stage, my next steps would be:
   * Viewing a piece of content
   * Viewing the Reddit post that a piece of content originated from
 * Bring styling in line with branding, or begin establishing a style guid and branding if none exists.
-* Add a couple more interactive features for testing fidelity (specifically actually being able to add and remove subreddits, not just turn them on and off, as well as making the sorting buttons) actually switch.
+* Add a couple more interactive features for testing fidelity, specifically actually being able to add and remove subreddits, not just turn them on and off, as well as making the sorting buttons actually switch. I found myself getting a bit too caught up wrestling with javascript when I figured that's neither my strength nor what you're testing 😂
+* Spend a bit more time optimzing on different devices. I build this prototype mobile-first and with responsiveness in mind, but it could definitely use some more fine tuning.
 * Confer with the project lead and developers to consider what the next non-design steps would be and how my piece connects with theirs.
