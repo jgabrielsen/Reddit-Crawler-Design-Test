@@ -18,11 +18,10 @@ A non-functional design for a Reddit Crawler created for an interview process de
 > * If you’re unsure about something or need more specs, just improvise. You have the freedom.
 > * Do not spend more than half a day on this task.
 
-This project uses [Bulma](https://bulma.io/), the fonts [Oswald](https://fonts.google.com/specimen/Oswald) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento), [FontAwesome](https://fontawesome.com/), and [jQuery](https://jquery.com/).
-
 ---
 
-I spent about 4 hours on this project.
+I spent about 4 hours on this project. As for tools, I created the prototype in HTML, CSS, and Javascript. This project uses [Bulma](https://bulma.io/), the fonts [Oswald](https://fonts.google.com/specimen/Oswald) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento), [FontAwesome](https://fontawesome.com/), and [jQuery](https://jquery.com/).
+
 
 I made a couple assumptions about what I would have discovered during a research phase:
 1. Users of this app wanted a simpler, cleaner exerience than Reddit offers (or else they'd just use Reddit).
