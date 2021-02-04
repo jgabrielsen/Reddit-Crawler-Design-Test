@@ -1,0 +1,14 @@
+.button.add-subreddit {
+  .add-subreddit-field {
+    opacity: 0;
+    width: auto;
+    max-width: 0;
+    transition: all .4s ease-in-out;
+    pointer-events: none;
+    &.is-active {
+      opacity: 1;
+      max-width: 500px;
+      pointer-events: auto;
+    }
+  }
+}

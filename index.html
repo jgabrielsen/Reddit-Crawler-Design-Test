@@ -73,17 +73,27 @@
 
           <div class="column">
             <div class="buttons">
-              <a class="button is-primary filter" data-subreddit="worldnews"><i class="far fa-newspaper mr-2"></i> World News</a>
-              <a class="button is-primary filter" data-subreddit="technology"><i class="far fa-newspaper mr-2"></i> Technology</a>
-              <a class="button is-primary filter" data-subreddit="funny"><i class="far fa-newspaper mr-2"></i> Funny</a>
-              <a class="button is-primary"><i class="fas fa-plus"></i></a>
+              <a class="button is-primary filter" data-subreddit="worldnews">World News</a>
+              <a class="button is-primary filter" data-subreddit="technology">Technology</a>
+              <a class="button is-primary filter" data-subreddit="funny">Funny</a>
+              <a class="button is-primary add-subreddit">
+                <p class="control has-icons-right add-subreddit-field">
+                  <input class="input is-small is-rounded" type="text" placeholder="Subreddit name...">
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-plus mr-2"></i>
+                  </span>
+                </p>
+
+                <i class="fas fa-plus"></i>
+
+              </a>
             </div>
 
           </div>
 
           <div class="column field search">
             <p class="control has-icons-right">
-              <input class="input" type="text" placeholder="Search your subreddits...">
+              <input class="input is-rounded" type="text" placeholder="Search your subreddits...">
               <span class="icon is-small is-right">
                 <i class="fas fa-search"></i>
               </span>
@@ -99,7 +109,7 @@
 
     <section class="section">
 
-      <div class="card is-active" data-subreddit-target="worldnews">
+      <div class="card is-active is-clickable" data-subreddit-target="worldnews">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -115,7 +125,7 @@
         </div>
       </div>
 
-      <div class="card is-active" data-subreddit-target="technology">
+      <div class="card is-active is-clickable" data-subreddit-target="technology">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -131,7 +141,7 @@
         </div>
       </div>
 
-      <div class="card is-active" data-subreddit-target="funny">
+      <div class="card is-active is-clickable" data-subreddit-target="funny">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -147,7 +157,7 @@
         </div>
       </div>
 
-      <div class="card is-active" data-subreddit-target="worldnews">
+      <div class="card is-active is-clickable" data-subreddit-target="worldnews">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -163,7 +173,7 @@
         </div>
       </div>
 
-      <div class="card is-active" data-subreddit-target="technology">
+      <div class="card is-active is-clickable" data-subreddit-target="technology">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -179,7 +189,7 @@
         </div>
       </div>
 
-      <div class="card is-active" data-subreddit-target="funny">
+      <div class="card is-active is-clickable" data-subreddit-target="funny">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
