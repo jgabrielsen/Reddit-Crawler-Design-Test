@@ -1,4 +1,5 @@
 .card {
+  display: none;
   border: 1px solid rgba(#fff,0);
   transition: all .4s ease-in-out;
   .media {
@@ -14,5 +15,8 @@
     background-color: #eee;
     border: 1px solid rgba(#ccc,1);
     cursor: pointer;
+  }
+  &.is-active {
+    display: block;
   }
 }
