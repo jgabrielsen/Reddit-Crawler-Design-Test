@@ -17,3 +17,5 @@ A non-functional design for a Reddit Crawler created for an interview process de
 > * Create a prototype and share it with us
 > * If you’re unsure about something or need more specs, just improvise. You have the freedom.
 > * Do not spend more than half a day on this task.
+
+  This project uses [Bulma](https://bulma.io/), the fonts [Oswald](https://fonts.google.com/specimen/Oswald) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento), [FontAwesome](https://fontawesome.com/), and [jQuery](https://jquery.com/).
