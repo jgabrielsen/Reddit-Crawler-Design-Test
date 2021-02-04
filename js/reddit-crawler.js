@@ -25,4 +25,4 @@ $contractAddSubreddit = function(){
 };
 $( ".add-subreddit-field input" ).blur( function() {
   $contractAddSubreddit();
-});  
+});

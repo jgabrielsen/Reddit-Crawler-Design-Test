@@ -45,6 +45,15 @@
 
         <div class="columns">
 
+          <div class="column field search">
+            <p class="control has-icons-right">
+              <input class="input is-rounded" type="text" placeholder="Search your subreddits...">
+              <span class="icon is-small is-right">
+                <i class="fas fa-search"></i>
+              </span>
+            </p>
+          </div>
+
           <div class="column">
             <div class="buttons">
               <a class="button is-primary filter" data-subreddit="worldnews">World News</a>
@@ -65,15 +74,6 @@
 
           </div>
 
-          <div class="column field search">
-            <p class="control has-icons-right">
-              <input class="input is-rounded" type="text" placeholder="Search your subreddits...">
-              <span class="icon is-small is-right">
-                <i class="fas fa-search"></i>
-              </span>
-            </p>
-          </div>
-
         </div>
 
       </div>
@@ -82,6 +82,15 @@
     <hr>
 
     <section class="section">
+      <div class="container mb-4">
+        <div class="sort-by buttons">
+          <a class="button is-primary sort"><i class="fas fa-rocket mr-2"></i> Best</a>
+          <a class="button is-white sort"><i class="fas fa-fire mr-2"></i>Hot</a>
+          <a class="button is-white sort"><i class="fas fa-certificate mr-2"></i>New</a>
+          <a class="button is-white sort"><i class="fas fa-arrow-up mr-2"></i>Top</a>
+          <a class="button is-white sort"><i class="fas fa-chart-line mr-2"></i>Rising</a>
+        </div>
+      </div>
 
       <div class="card is-active is-clickable" data-subreddit-target="worldnews">
         <div class="card-content">
